@@ -1,0 +1,440 @@
+body{
+    background-color: beige;
+    margin: 0;
+    font-family: 'Battambang', cursive;
+}
+
+.bar1{
+width: 100%;
+background-color: tomato;
+float: left;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.space{
+    width: 100% ;
+    float: left;
+    height: 80px;
+}
+
+
+.menu-box{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.menu-box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-box ul li{
+    float: left;
+}
+.menu-box ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+}
+
+.menu-box ul li.btn-search{
+    float: right;
+}
+.menu-box ul li.logo{
+    width: 100px;
+}
+
+.menu-box ul li.logo a{ 
+    padding: 0;
+}
+.menu-box ul li.logo a img{
+    float: left;
+    height: 60px ;
+}
+.menu-box ul li a:hover{
+    color: rgba(0, 0, 0, 0.288);
+}
+.container{
+    /* background-color: antiquewhite; */
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.row{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.row .box1{
+    width: 20%;
+    float: left;
+    background-color: red;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+.row marquee{
+    width: 80%;
+    /* float: left; */
+    box-sizing: border-box;
+    padding: 10.5px;
+    display: inline-block;
+   
+}
+
+.row marquee ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row marquee ul li{
+    display: inline-block;
+}
+
+.row marquee ul li a{
+    display: block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.ads1{
+    margin-top: 7px;
+    height: 90px;
+}
+
+.ads1 img{
+    width: 100%;
+    height: 100%;
+}
+.content-box{
+    width: 100%;
+    float: left;
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.slide-box{
+    height: 400px;
+    
+}
+
+.slide-box .box{
+    width: 49.75%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.slide-box .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.slide-box .box-slide{
+    width: 49.75%;
+    height: 100%;
+    float: left;
+    /* background-color: rgb(0, 219, 235); */
+    position: relative;
+    overflow: hidden;
+}
+
+
+.slide-box .box-slide .slide-1{
+    /* width: 100%;
+    /* height: 49%;
+    /* float: left; */
+    /* background-color: rgb(12, 54, 54); */
+    margin-bottom: 1%;
+    width: 100%;
+    background-color: tomato;
+    float: left;
+    height: 49%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.slide-box .box-slide .slide-2{
+    width: 49.5%;
+    height: 49%;
+    float: left;
+    background-color: blueviolet;
+    overflow: hidden;
+    position: relative;
+
+} 
+
+.slide-box .box-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.slide-box .box p, .slide-box .box-slide .slide-2 p, .box-slide .slide-1 p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-image:  linear-gradient(to top,#000000,#0000004d);
+}
+
+.slide-box .box:hover img{
+    transform: scale(1.2);
+}
+.slide-box .box-slide .slide-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.slide-box .box-slide .slide-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.slide-box .box-slide .slide-1:hover img, .slide-box .box-slide .slide-2:hover img {
+    transform: scale(1.2);
+}
+.left-box{
+    width: 70%;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+    
+}
+
+.left-box .new-box{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+.left-box .new-box .title-box{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid red;
+
+} 
+
+.left-box .new-box .title-box h1{
+    margin: 0;
+    font-size: 16px;
+    background-color: red;
+    float: left;
+    color: white;
+    padding: 7px;
+}
+.left-box .new-box .box1{
+    width: 49.5%;
+    height: 305px;
+    float: left;
+    margin-top: 10px;
+   
+    
+}
+
+.left-box .new-box .box1 .txt-box{
+    width: 100%;
+    height: 28%;
+    float: left;
+}
+.left-box .new-box .box1 .img-box{
+    width: 100%;
+    height: 72%;
+    float: left;  
+    overflow: hidden;
+}
+.left-box .new-box .box1 .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    
+}
+.left-box .new-box .box1 h1{
+    font-size: 14px;
+    margin: 0;
+}
+
+.left-box .new-box .box1 p{
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.left-box .new-box .box1:hover img{
+    transform: scale(1.2) ;
+}
+
+.left-box .new-box .box2{
+    width: 49.5%;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+    
+    
+}
+.left-box .new-box .box2 .box3{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: antiquewhite;
+    margin-top: 5px;
+}
+.left-box .new-box .box2 .box3 .img-box{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: coral;
+    overflow: hidden;
+}
+.left-box .new-box .box2 .box3 .img-box img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+
+}
+
+.left-box .new-box .box2 .box3 .img-box img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+    transition: 0.3s;
+    
+
+}
+.left-box .new-box .box2 .box3 .txt-box h1{
+    font-size: 13px;
+    margin: 0;
+    margin-left: 5px;
+}
+.left-box .new-box .box2 .box3 .txt-box p{
+    font-size: 14px;
+    margin: 0;
+    margin-top: 25px;
+}
+
+
+.left-box .new-box .box2 .box3 :hover img{
+    transform: scale(1.2) ;
+}
+
+.right-box{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+/* .box1 p{
+    padding: 0;
+    font-size: 15px;
+} */
+.right-box .box-3 .title-box {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid red;
+}
+ 
+.right-box .box-3 .title-box h1 {
+    margin: 0;
+    font-size: 16px;
+    background-color: red;
+    float: left;
+    color: white;
+    padding: 7px;
+    margin-top: 8px;
+}
+
+
+.right-box .box-3 .box-img1{
+    width: 49%;
+    float: left;
+    margin-top: 5px;
+    
+   
+}
+.right-box .box-3 .box-img2{
+    width: 49%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 1%;
+    margin: 1%;
+}
+
+.right-box .right-box-R a{
+    display: block
+}
+.right-box .right-box-R a img{
+    width: 100%;
+}
+
+.right-box .box-3 .title-box-1 {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid red;
+}
+ 
+.right-box .box-3 .title-box-1 h1{
+    margin: 0;
+    font-size: 16px;
+    background-color: red;
+    float: left;
+    color: white;
+    padding: 7px;
+    margin-top: 8px;
+}
+
+.right-box .box-3 .box-img-img{
+    width: 40%;
+    float: left;
+    margin-top: 5px;
+    object-fit: cover;
+    transition: 0.3s;
+    
+}
+.right-box .box-img-img a{
+    display: block
+    
+
+}
+.right-box .box-img-img a img{
+    width: 75%;
+    transform: scale(1.2);
+}
+.right-box .box-3 .box-img-text{
+    width: 58%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 1%;
+    margin: 1%;
+}
+.right-box .box-3 p{
+    margin: 0;
+    font-size: 12px;
+    margin-right: 5px;
+    width: 100%;
+    padding: 0;
+}
